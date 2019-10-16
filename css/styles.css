@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-right: calc(50% - 480px);
+}
+    
+nav ul li {
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    display: inline;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+}
+
+nav ul li a {
+    color: #f25c43;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #424955;
+    height: 190px;
+    background-image: url('/images/logo.png')  ;
+    background-repeat: no-repeat;
+    background-position: calc(50vw - 480px) ;
+}
+
+section {
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+section p {
+    margin: 0 auto;
+    width: 960px;
+}
+
+section h1:nth-child(1) {
+    color: #f25c43;
+}
+
+section h1:nth-child(4) {
+    color: white;
+    background: #f25c43;
+    height: 30px;
+   padding: 90px; 
+  text-align: center;
+
+}
+
+main  {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+}
+
+header {
+    text-align: center;
+    background: -webkit-linear-gradient(top,#313841 400px, #ffffff 20%);
+}
+
+header h1 {
+    color: #f25c43;
+    padding-top: 40px;
+    margin-block-start: 0%;
+}
+header h2 {
+    color: white;
+    font-weight: bolder;
+}
+
+
+main article {
+    flex-basis: 480px;
+    padding: 10px;
+}
+
+main aside {
+    flex-basis: 480px;
+    padding: 10px;
+}
+
+body div:nth-child(5)  {
+    background: #f5f6f6;
+    height: 120px;
+ }
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 170px;
+    justify-content: center;
+    background-color: #30353d;
+    color: white;
+}
+
+footer div:nth-child(2){
+    display: flex;  
+    justify-content: center;
+
+}
+
+
+footer div div:nth-child(1) {
+    flex: 0 0 36px;
+    height: 36px;
+    width: 36px;
+    background-image: url('../images/social-media.png');
+    background-position: 0px 0px;
+
+    
+}
+footer div div:nth-child(2) {
+
+    height: 36px;
+    width: 36px;
+    background-image: url('../images/social-media.png');
+    background-position: 36px 0px;
+    
+    
+}
+footer div div:nth-child(3) {
+  
+    height: 36px;
+    width: 36px;
+    background-image: url('../images/social-media.png');
+    background-position: 74px 0px;
+    
+}
+
+footer div div:nth-child(4) {
+
+    height: 36px;
+    width: 36px;
+    background-image: url('../images/social-media.png');
+    background-position: 112px 0px;
+    
+    
+}
+
+footer div div {
+    margin: 2px;
+}
